@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data/weights/cache
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+outputs/
+weights/
+models/
+**/train/
+**/valid/
+**/val/
+**/test/
+**/data/
+**/datasets/
+
+# VSCode/Cursor
+.vscode/
+.cursor/
+
+# Logs
+*.log
