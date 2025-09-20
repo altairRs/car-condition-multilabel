@@ -73,6 +73,19 @@ probs = test_prediction("path/to/clean_car.jpg")
 # Expectation: clean > 0.8, scratch < 0.1
 ```
 
+## Examples (ad‑hoc web photos)
+
+Note: The images below are random photos from the web used to qualitatively test the model. They are not from the training datasets.
+
+![Example 1](images/5345891900537829634.jpg)
+![Example 2](images/5345891900537829649.jpg)
+![Example 3](images/5345891900537829651.jpg)
+![Example 4](images/5345891900537829653.jpg)
+![Example 5](images/5345891900537829654.jpg)
+![Example 6](images/5345891900537829656.jpg)
+![Example 7](images/5345891900537829658.jpg)
+![Example 8](images/5345891900537829659.jpg)
+
 ## Reproducibility and Safety
 
 - Outputs are cleared for clean diffs.
